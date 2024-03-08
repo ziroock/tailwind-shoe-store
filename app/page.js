@@ -1,7 +1,5 @@
+import ShoeDetail from '@/components/ShoeDetail'
+
 export default function Home() {
-  return (
-    <>
-      <div className="text-4xl">Hello World!</div>
-    </>
-  )
+  return <ShoeDetail />
 }
